@@ -6,13 +6,13 @@ body {
 h1{
 	color: #0D2C40;
 	letter-spacing: 1px;
-	font-family:Raleway, san-serif;
+	font-family:"Raleway", sans-serif;
 	font-weight: 400;
 	margin: 0;
 }
 
 a {
-	font-family: Raleway;
+	font-family: "Raleway", sans-serif;
 	color: #f15B31 ;
 	letter-spacing: 1px;
 	font-weight: 600
@@ -26,7 +26,7 @@ a:hover {
 }
 
 h2 {
-	font-family: Raleway, san-serif;
+	font-family: "Raleway", sans-serif;
 	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 600;
