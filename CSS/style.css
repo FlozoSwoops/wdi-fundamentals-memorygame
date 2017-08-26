@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	margin: 0;
+	padding: 0;
 }
 
 h1{
@@ -9,20 +10,21 @@ h1{
 	font-family:"Raleway", sans-serif;
 	font-weight: 400;
 	margin: 0;
+	font-size: 45px;
 }
 
 a {
 	font-family: "Raleway", sans-serif;
-	color: #f15B31 ;
+	color: white;
 	letter-spacing: 1px;
-	font-weight: 600
+	font-weight: 600;
 	font-size: 18px;
 	margin: 0 20px 0 20px;
 	border-bottom: 2px solid transparent;
 }
 
 a:hover {
-  border-color: white;
+  color: white;
 }
 
 h2 {
@@ -34,7 +36,7 @@ h2 {
 }
 
 p {
-	font-family: "Droid Serif", san-serif;
+	font-family: "Droid Serif", sans-serif;
 	line-height: 26px;
 	font-size: 18px;
 }
@@ -60,20 +62,25 @@ img {
 footer {
 	text-transform: uppercase;
 	padding: 0 20px 0 20px;
-	
-	color:white;
+	color: white;
 	font-size: 14px;
 	letter-spacing: .08em;
-	font-weight: 500px;
-	background:#0D2C40;
+	font-weight: 500;
+	background: #0D2C40;
+	overflow: hidden;
+	margin-bottom: -50px;
 }
 
 .copyright {
 	float: left;
+	font-family: "Raleway", sans-serif;
+
 }
 
 .message {
 	float: right;
+	font-family: "Raleway", sans-serif;
+
 }
 
 .clearfix:after {
